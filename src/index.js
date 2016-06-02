@@ -16,7 +16,7 @@ var ButtonState = {
 var prototype = {
     isPressed: util.deprecate(function () {
         return ButtonState.pushed === this._state;
-    })
+    }, 'Method `isPressed()` is deprecated, use property `pushed` instead.')
 };
 
 Object.defineProperties(prototype, {
