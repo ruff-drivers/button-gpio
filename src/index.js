@@ -36,7 +36,7 @@ module.exports = driver({
     attach: function (inputs) {
         var that = this;
 
-        this._gpio = inputs.getRequired('gpio');
+        this._gpio = inputs['gpio'];
         this._state = ButtonState.released;
 
         this._gpio.on('interrupt', function (state) {
