@@ -6,18 +6,13 @@
 'use strict';
 
 var driver = require('ruff-driver');
-var util = require('util');
 
 var ButtonState = {
     pushed: 0,
     released: 1
 };
 
-var prototype = {
-    isPressed: util.deprecate(function () {
-        return ButtonState.pushed === this._state;
-    }, 'Method `isPressed()` is deprecated, use property `pushed` instead.')
-};
+var prototype = {};
 
 Object.defineProperties(prototype, {
     pushed: {

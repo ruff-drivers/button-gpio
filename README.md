@@ -6,7 +6,7 @@ The driver for buttons with GPIO interface.
 
 ## Supported Models
 
-- [CK002](https://rap.ruff.io/devices/CK002)
+- [ck002](https://rap.ruff.io/devices/ck002)
 
 ## Installing
 
@@ -18,7 +18,7 @@ Execute following command and enter a **supported model** to install.
 rap device add <device-id>
 
 # Then enter a supported model, for example:
-# ? model: CK002
+# ? model: ck002
 ```
 
 ## Usage
