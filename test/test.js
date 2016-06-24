@@ -68,10 +68,6 @@ describe('Button GPIO Driver', function () {
     });
 
     describe('States', function () {
-        /* eslint-disable no-console, no-unreachable */
-        console.warn('SKIPPING STATES TEST');
-        return;
-
         it('should be pushed after `push` event', function (done) {
             button.once('push', function () {
                 assert(button.pushed);
