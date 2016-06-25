@@ -1,6 +1,6 @@
 {
     "name": "button-gpio",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "The driver for buttons with GPIO interface.",
     "author": "Nanchao Inc.",
     "license": "MIT",
