@@ -4,6 +4,10 @@
 
 The driver for buttons with GPIO interface.
 
+## Supported Engines
+
+* Ruff: ~1.2.0
+
 ## Supported Models
 
 - [ck002](https://rap.ruff.io/devices/ck002)
