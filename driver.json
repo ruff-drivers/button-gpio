@@ -1,4 +1,5 @@
 {
+    "featureVersion": "0.1",
     "models": [
         "CK002"
     ],
@@ -8,6 +9,11 @@
             "args": {
                 "direction": "in",
                 "edge": "both"
+            },
+            "features": {
+                "input": [
+                    "interrupt"
+                ]
             }
         }
     }
