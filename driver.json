@@ -12,6 +12,7 @@
             },
             "features": {
                 "input": [
+                    "read",
                     "interrupt"
                 ]
             }
