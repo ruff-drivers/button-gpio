@@ -41,12 +41,15 @@ $('#<device-id>').on('release', function () {
 
 ## API References
 
-```ts
-declare class Device extends RuffDevice {
-    on(event: 'push', listener: () => void): this;
-    on(event: 'release', listener: () => void): this;
-}
-```
+### Event
+
+- `push`
+
+This event will be emitted when the button is pushed. The callback has no parameters.
+
+- `release`
+
+This event will be emitted when the button is released. The callback has no parameters.
 
 ## Contributing
 
